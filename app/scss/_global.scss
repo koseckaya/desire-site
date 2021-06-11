@@ -10,7 +10,7 @@ body {
 	font-size: 16px;
 	line-height: 27px;
 	overflow-x: hidden;
-	min-width: 320px;
+	min-width: 300px;
 }
 input:focus, textarea:focus{
 	outline: none;
@@ -34,7 +34,7 @@ input:focus, textarea:focus{
   margin: 0 auto;
   padding: 0 15px;
 }
-.continer-fluid{
+.container-fluid{
 	max-width: 1920px;
 	margin: 0 auto;
 	padding: 0 10px;

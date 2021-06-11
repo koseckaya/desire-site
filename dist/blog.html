@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -19,32 +21,26 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a href="about.html" class="menu__list-link">About</a>
+                <a href="#" class="menu__list-link">About</a>
               </li>
               <li class="menu__list-item">
-                <a href="gallery.html" class="menu__list-link">Gallery</a>
+                <a href="#" class="menu__list-link">Gallery</a>
               </li>
             </ul>
           </nav>
-          <a href="index.html" class="logo">
+          <a href="#" class="logo">
             <img src="images/logo.png" alt="logo">
           </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a href="blog.html" class="menu__list-link">Blog</a>
+                <a href="#" class="menu__list-link">Blog</a>
               </li>
               <li class="menu__list-item">
-                <a href="contacts.html" class="menu__list-link">Contact</a>
+                <a href="#" class="menu__list-link">Contact</a>
               </li>
             </ul>
           </nav>
-          <button class="header__btn-menu">
-            <span></span><span></span><span></span>
-          </button>
-          <button class="header__btn-menu">
-            <span></span><span></span><span></span>
-          </button>
           <button class="header__btn">
             <img src="images/icon_menu.svg" alt="icon menu">
           </button>
@@ -71,20 +67,20 @@
         <div class="container">
           <ul class="breadcrumbs__list">
             <li class="breadcrumbs__item">
-              <a href="index.html" class="breadcrumbs__link">Home</a>
+              <a href="#" class="breadcrumbs__link">Home</a>
             </li>
             <li class="breadcrumbs__item">
-              <a href="#" class="breadcrumbs__link">Blog-One</a>
+              <a href="#" class="breadcrumbs__link">About</a>
             </li>
           </ul>
         </div>
       </div>
 
-      <section class="blog blog-one">
+      <section class="blog">
         <div class="container">
           <div class="blog__inner">
             <div class="blog__items">
-              <div class="blog__item blog-one__item">
+              <div class="blog__item">
                 <img class="blog__item-img" src="images/blog/big1.jpg" alt="blog">
                 <div class="blog__item-info">
                   <span class="blog__item-date">August 15, 2020</span> |
@@ -95,68 +91,67 @@
                   <h3 class="blog__item-title">Red selfies edison bulb four dollar toast design humblebrag for the
                     furniture</h3>
                 </a>
-                <div class="blog__one-text">
-                  <p>Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer. Literally
-                    williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mug iPhone enamel
-                    pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok
-                    taxidermy pabst enamel pin edison bulb farm-to-table.
-                    Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickled
-                    cray stumptown 8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut
-                    irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche. Tousled
-                    yr williamsburg austin edison bulb cloud bread vegan street art. Locavore food truck trust fund palo
-                    santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up seitan.</p>
-                  <blockquote>“Simplicity is not the goal. It is the by-product of a good idea and modest expectations”
-                    <div class="blog__blockquote-author">Paul Rand</div>
-                  </blockquote>
-                  <p>Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring
-                    book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table.
-                    Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickled
-                    cray stumptown 8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut
-                    irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche. Tousled
-                    yr williamsburg austin edison bulb cloud bread vegan street art. Locavore food truck trust fund palo
-                    santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up seitan.</p>
+                <p class="blog__item-text">Everyday carry actually neutra authentic kogi shabby chic migas small batch
+                  craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper
+                  mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh
+                  pok pok taxidermy pabst enamel pin edison bulb farm-to-table</p>
+              </div>
+              <blockquote class="blog__blockquote">“Simplicity is not the goal. It is the by-product of a good idea and
+                modest expectations”
+                <div class="blog__blockquote-author">Paul Rand</div>
+              </blockquote>
+              <div class="blog__item article-popup">
+                <div class="article-popup__box">
+                  <img class="blog__item-img" src="images/blog/big2.jpg" alt="">
+                  <a href="https://youtu.be/BHACKCNDMW8" data-fancybox class="blog__item-popup">
+                    <img src="images/play_button.svg" alt="play" class="blog__item-play"></a>
                 </div>
-                <div class="blog-one__tags">
-                  <h4 class="blog-one__tags-title">Tags</h4>
-                  <a href="#" class="blog-one__tags-link">Bedroom furniture</a>
-                  <a href="#" class="blog-one__tags-link">Office furniture</a>
-                  <a href="#" class="blog-one__tags-link">Dining room futniture</a>
-                  <a href="#" class="blog-one__tags-link">Chair</a>
+                <div class="blog__item-info">
+                  <span class="blog__item-date">August 12, 2020</span> |
+                  <a href="#" class="blog__item-author">by Lux Morningstar</a> |
+                  <a href="#" class="blog__item-theme">Design</a>
                 </div>
-                <div class="blog-one__links">
-                  <a href="#" class="blog-one__link blog-one__link-prev"> <span>Cred selfies edison bulb four dollar
-                      toast humblebrag</span> </a>
-                  <a href="#" class="blog-one__link blog-one__link-next">
-                    <span>Semiotics fixie four dollar toast, next
-                      level</span> </a>
-                </div>
+                <a href="#" class="blog__item-link">
+                  <h3 class="blog__item-title">Authentic kogi shabby chic</h3>
+                </a>
+              </div>
 
-              </div>
-              <div class="blog-one__comments">
-                <h4 class="blog-one__comments-title">Comments:</h4>
-                <div class="blog-one__comments-item">
-                  <img src="images/content/avatar.jpg" alt="" class="blog-one__comments-avatar">
-                  <div class="blog-one__comments-info">
-                    <p class="blog-one__comments-name">Lea Brown</p>
-                    <p class="blog-one__comments-date">August 12, 2020</p>
-                    <p class="blog-one__comments-text">Tumeric tousled austin, kinfolk scenester authentic craft beer
-                      truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral
-                      cliche</p>
-                    <button class="blog-one__reply">Reply</button>
-                  </div>
+              <div class="blog__item article-slider">
+                <div class="article-slider__box">
+                  <img src="images/blog/big3.jpg" alt="slider" class="article-slider__img">
+                  <img src="images/blog/big3.jpg" alt="slider" class="article-slider__img">
+                  <img src="images/blog/big3.jpg" alt="slider" class="article-slider__img">
                 </div>
+                <div class="blog__item-info">
+                  <span class="blog__item-date">August 18, 2020</span> |
+                  <a href="#" class="blog__item-author">by Ann Summers</a> |
+                  <a href="#" class="blog__item-theme">Table Furniture</a>
+                </div>
+                <a href="#" class="blog__item-link">
+                  <h3 class="blog__item-title">Semiotics fixie four dollar toast, next level woke</h3>
+                </a>
+                <p class="blog__item-text">Everyday carry actually neutra authentic kogi shabby chic migas small batch
+                  craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper
+                  mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh
+                  pok pok taxidermy pabst enamel pin edison bulb farm-to-table</p>
               </div>
-              <form class="blog-one__form">
-                <h4 class="blog-one__form-title">Post a Comment</h4>
-                <textarea class="blog-one__form-textarea" placeholder="Your comment"></textarea>
-                <input type="text" class="blog-one__form-input" placeholder="Your name">
-                <input type="email" class="blog-one__form-input" placeholder="Your e-mail">
-                <label class="blog-one__label">
-                  <input type="checkbox" class="blog-one__labelinput">
-                  Remember me
-                </label>
-                <button type="submit" class="blog-one__form-btn">Submit</button>
-              </form>
+
+              <div class="pagination">
+                <a href="#" class="pagination__arrow pagination__arrow--disabled">
+                  <img src="images/arrow-left.svg" alt="" class="pagination__arrow-icon">
+                </a>
+                <ul class="pagination__list">
+                  <li class="pagination__list-item">
+                    <a href="#" class="pagination__list-num pagination__list-num--active">1</a>
+                  </li>
+                  <li class="pagination__list-item">
+                    <a href="#" class="pagination__list-num">2</a>
+                  </li>
+                </ul>
+                <a href="#" class="pagination__arrow">
+                  <img src="images/arrow-right.svg" alt="" class="pagination__arrow-icon">
+                </a>
+              </div>
             </div>
 
             <aside class="aside">

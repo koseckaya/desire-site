@@ -18,6 +18,9 @@
         padding: 0;
         cursor: pointer;
     }
+    &__btn-menu{
+        display: none;
+    }
 }
 .logo{
     margin: 0 auto;
@@ -235,11 +238,15 @@
     z-index: 10;
     &__list{
         display: flex;
+        overflow-x: auto;
+    }
+    &__item{
+        position: relative;
+       padding-right: 8px;
     }
     &__item::after{
         content:"/";
-        margin-left: -4px;
-        margin-right: 4px;
+        position: absolute;
     }
     &__item:last-child::after{
         display: none;
@@ -399,7 +406,7 @@
     background-image: url(../images/decor-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 600px;
+    max-height: 600px;
     &__title{
         max-width: 730px;
         color: $title;
@@ -493,6 +500,7 @@
     }
     &__item-text{
         margin-top: 13px;
+        text-align: left;
     }
 }
 
@@ -525,6 +533,7 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 30px 35px; 
+        margin-bottom: 10px;
     }
     &__item:first-child{
         grid-column: span 2;
@@ -720,6 +729,10 @@
 
 .map{
     margin-top: -53px;
+    margin-bottom: 50px;
+    iframe{
+        height: 578px;
+    }
 }
 
 .contact{
@@ -836,7 +849,7 @@
         left: 0;
         right: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         color: $title;
         @extend %title-font;
@@ -954,11 +967,11 @@
 
     }
 }    
-    .article-popup{
+.article-popup{
         &__box{
             position: relative;
         }
-    }
+}
     .article-slider{
         &__arrow{
             padding: 0;
@@ -1235,3 +1248,5 @@
     outline: none;
   }
 }
+
+@import 'media';
